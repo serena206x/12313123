@@ -1,0 +1,11 @@
+关于加固版本的验证方法：
+1、右键选择APK，打开方式选择解压缩方式：WinRar
+
+2、打开后，将class.dex拽出来，放到反编译的工具 中，放到反编译的工具中的APK目录下
+
+3、运行反编译的工具中的dex2jar-0.0.9.15中的build.bat，运行完成后会在APK中自动生成一个class_dex2jar.jar
+注：build.bat文件，选择编辑，打开，需要更改对应的路径
+
+4、打开jd-gui.exe文件，打开，open file--选择刚刚生成的classes_dex2jar.jar文件
+
+5、查看是否可看到代码，源代码
